@@ -2,6 +2,8 @@ const birthDate = document.querySelector("#birth-date");
 const luckyNumber = document.querySelector("#lucky-number");
 const checkButton = document.querySelector("#check-button");
 const resultDiv = document.querySelector("#result-div");
+const closeButton = document.querySelector(".close-btn");
+const alertDiv = document.querySelector("#alert-div");
 
 
 function checkBirthDateLucky() {
@@ -35,4 +37,9 @@ function compareBirthdate(sum, luckyNumber) {
 
 }
 
+function closeAlertDiv() {
+    alertDiv.style.display = "none"
+}
+
 checkButton.addEventListener("click", checkBirthDateLucky)
+closeButton.addEventListener("click", closeAlertDiv)

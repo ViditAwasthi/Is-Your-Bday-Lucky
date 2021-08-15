@@ -14,6 +14,22 @@ nav {
 
 }
 
+#alert-div{
+border: 2px solid turquoise;
+width: 50%;
+margin: 0px auto 20px auto;
+color: yellow;
+padding: 0.2rem;
+font-weight: bolder;
+border-radius: 0.5rem;
+}
+.close-btn{
+    cursor: pointer;
+    color: white;
+    width:5%;
+    margin-left: 95%;
+}
+
 #container {
     max-width: 600px;
     margin: 2rem auto;
